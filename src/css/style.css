@@ -1,0 +1,10 @@
+body{
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    /* Essa fonte é pra usar em momentos específicos */
+    /* font-family: 'Butterfly Kids', cursive; */
+}
+
+*{
+	box-sizing: border-box;
+}

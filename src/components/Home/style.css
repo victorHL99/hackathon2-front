@@ -1,0 +1,36 @@
+.home-container{
+    background-color: #f4fbf2;
+    width: 100vw;
+    height: calc(100vh - 70px);
+    padding: 10px 15px;
+    font-family: 'Itim', cursive;
+    display: flex;
+    flex-direction: column;
+    color: rgb(66, 62, 62)
+}
+
+.home-container h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.home-container p{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.theme-container{
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    border: solid 2px #00ff00;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    align-self: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}

@@ -1,0 +1,44 @@
+.success-container{
+    background-color: #f4fbf2;
+    width: 100vw;
+    height: calc(100vh - 70px);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(66, 62, 62)
+}
+
+.success-container h1{
+    font-size: 30px;
+}
+
+.success{
+    font-size: 25px;
+}
+
+.message{
+    padding-bottom: 150px;
+}
+
+.success-container span{
+    padding-bottom: 50px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    width: 100%;
+    position: fixed;
+    padding-bottom: 50px;
+    bottom: 0
+}
+
+.success-container button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 2px #00ff00;
+    background-color: #fff;
+}
