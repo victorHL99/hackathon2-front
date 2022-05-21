@@ -27,7 +27,11 @@ export default function Home() {
 
     console.log(questionsIds)
 
-    const navigateTo
+    const navigateToQuestion = (questions) =>{
+        console.log(questions)
+        setQuestionsIds(questions)
+        navigate(`/perguntas/${questions[0]}`)
+    }
 
     return (
         <div className='home-container'>
@@ -41,8 +45,7 @@ export default function Home() {
                             className='theme-container'
                             key={item._id}
                             onClick={() => { 
-                                setQuestionsIds(item.questoes) 
-                                
+                                navigateToQuestion(item.questoes)
                             }}
                         >
                             <span>{item.titulo}</span>

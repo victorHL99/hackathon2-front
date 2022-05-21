@@ -10,7 +10,7 @@ import SuccessContext from "./contexts/SuccessContext"
 
 export default function App() {
 
-    const [success, setSuccess] = useState(0);
+    const [success, setSuccess] = useState([]);
     const [questionsIds, setQuestionsIds] = useState([])
 
     return (
@@ -21,7 +21,7 @@ export default function App() {
                         <Header />
                         <Routes>
                             <Route path='/' element={<Home />}></Route>
-                            <Route path='/perguntas/:idTema' element={<Theme />}></Route>
+                            <Route path='/perguntas/:id' element={<Theme />}></Route>
                             <Route path='/sucesso' element={<Success />}></Route>
                         </Routes>
                     </BrowserRouter>
